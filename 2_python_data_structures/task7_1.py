@@ -1,0 +1,8 @@
+fileName = input("Enter file name: ")
+headFile = open(fileName)
+print("fh: ", headFile)
+book = headFile.read()
+print("book: ", book)
+book = book.upper()
+book = bookCAPITAL.rstrip()
+print(book)
